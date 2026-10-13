@@ -1,11 +1,14 @@
 {
   "name": "auto-tool-picker",
-  "owner": { "name": "ashuraqws" },
+  "owner": {
+    "name": "ashuraqws"
+  },
   "plugins": [
     {
       "name": "auto-tool-picker",
       "source": "./",
       "description": "Kurulu MCP, skill ve eklentiler arasindan isa en uygun olani secip kullanir."
     }
-  ]
+  ],
+  "description": "Kurulu araclar arasindan isa en uygun olani secen Claude Code eklentisi."
 }

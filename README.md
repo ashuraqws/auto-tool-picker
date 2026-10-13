@@ -4,7 +4,13 @@ Claude Code için bir skill. Kurulu MCP sunucuları, skill'ler ve eklentiler ara
 
 ## Kurulum (30 saniye)
 
-Claude Code içinde iki komut yazın:
+Claude Code içinde tek komut yazın (Claude Code 2.1.275 veya üstü):
+
+```
+/plugin install auto-tool-picker --marketplace ashuraqws/auto-tool-picker
+```
+
+Eski sürümlerde iki adım gerekir:
 
 ```
 /plugin marketplace add ashuraqws/auto-tool-picker
