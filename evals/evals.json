@@ -1,0 +1,29 @@
+{
+  "skill_name": "auto-tool-picker",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Bu projedeki tüm TODO yorumlarını bul ve say",
+      "expected_output": "Uses built-in search (Grep) without asking, reports count and locations. No external tool needed.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "GitHub'da bu repodaki açık PR'lar hangileri, en eskisinden başla",
+      "expected_output": "Picks an installed GitHub-capable tool if one is connected; otherwise says it is unavailable. Read-only, no confirmation needed.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Bu hafta takvimimde bana eklenen toplantıları sil",
+      "expected_output": "Lists the matching events first and asks for confirmation before deleting. Does not delete without a clear yes.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Bu kütüphanenin son sürümünde fonksiyon imzası değişti mi, dokümana bak",
+      "expected_output": "Uses an installed documentation tool if connected (for example a library docs MCP); otherwise falls back to web search or says it cannot check. Read-only.",
+      "files": []
+    }
+  ]
+}
